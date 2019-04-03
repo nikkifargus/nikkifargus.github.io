@@ -4,8 +4,8 @@ import deeFargus from '../images/dee_fargus.png'
 const Test1 = () => (
   <div className="row">
     <div className="col-sm-12 col-lg-5 offset-lg-1 mt-4">
-      <div >
-        <img style={{width:"100%"}} alt="logo" src={peterFargus}/>
+      <div style={{textAlign: 'center'}}>
+        <img style={{width: '60%', marginBottom: 20}} alt="Peter" src={peterFargus}/>
       </div>
       <p style={{ color: '#565347', textAlign: 'center'}}>
       Peter is a Business Psychologist and Human Resources Consultant. Previously he has worked for British Airways and PA Management Consultants.
@@ -13,8 +13,8 @@ const Test1 = () => (
       </p>
     </div>
   <div className="col-sm-12 col-lg-5 mt-4">
-  <div >
-      <img style={{width:"100%" }} alt="logo" src={deeFargus}/>
+  <div style={{textAlign: 'center'}}>
+      <img style={{ width: '60%', marginBottom: 20}} alt="Dee" src={deeFargus}/>
     </div>
 
     <p style={{color: '#565347', textAlign: 'center'}}>

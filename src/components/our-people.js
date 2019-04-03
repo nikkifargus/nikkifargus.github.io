@@ -4,8 +4,11 @@ import logo from '../images/OPR_Logo.png'
 const Index = () => (
   <div className="">
     <div className="row">
-      <div className="col-lg-4 offset-lg-2 col-sm-12">
-        <img alt="logo" style={{width: '100%'}} src={logo}/>
+      <div
+        className="col-lg-4 offset-lg-2 col-sm-12"
+        style={{textAlign: 'center'}}
+      >
+        <img alt="logo" style={{width: '60%'}} src={logo}/>
       </div>
       <div className="col-lg-5 col-sm-12" style={{ margin: 'auto 0'}}>
         <p> - During strategic planning </p>
