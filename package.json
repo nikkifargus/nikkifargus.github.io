@@ -11,10 +11,10 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
-  "homepage": "http://nikkifargus.github.io",
+  "homepage": "https://nikkifargus.github.io",
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
+    "deploy": "gh-pages -d master build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
