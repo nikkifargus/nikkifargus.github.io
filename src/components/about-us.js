@@ -8,7 +8,7 @@ const Test1 = () => (
         <img style={{width: '60%', marginBottom: 20}} alt="Peter" src={peterFargus}/>
       </div>
       <p style={{ color: '#565347', textAlign: 'center'}}>
-      Peter is a Business Psychologist and Human Resources Consultant. Previously he has worked for British Airways and PA Management Consultants.
+      Peter is a Business Psychologist and Human Resources Consultant.  Previously he has worked for British Airways and PA Management Consultants.
       He is a Fellow of the Chartered Institute of Personnel and Development; a Fellow of the Institute of Consulting, a Fellow of the Higher Education Academy and an Associate Fellow of the British Psychological Society. To view Peter&#39;s LinkedIn <a href="https://www.linkedin.com/in/pfargus/">Click here</a>
       </p>
     </div>

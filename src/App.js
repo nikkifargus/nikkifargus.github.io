@@ -5,6 +5,7 @@ import {
   Link,
 } from "react-router-dom";
 import './App.scss';
+import { HashRouter } from 'react-router-dom'
 
 import index from './components/index';
 import aboutUs from './components/about-us';
@@ -16,7 +17,7 @@ import employeeSurveys from './components/employee-surveys';
 import logo from './images/FCPLogoGrey.jpeg'
 function AppRouter() {
   return (
-    <Router>
+    <HashRouter>
       <div>
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <Link class="navbar-brand" to="/"><img alt=""src={logo} style={{ maxWidth: 100}}/></Link>
@@ -32,7 +33,7 @@ function AppRouter() {
             <Link class="nav-link" to="/about-us/">About Us</Link>
           </li>
           <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               What We Do
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -65,7 +66,7 @@ function AppRouter() {
           <div style={{textAlign: 'center', color: `#565347`}}>peter@fargus.co.uk | 01423 566035 | dee@fargus.co.uk</div>
         </footer>
       </div>
-    </Router>
+    </HashRouter>
   );
 }
 
