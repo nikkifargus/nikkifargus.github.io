@@ -1,6 +1,5 @@
 import React from "react";
 import {
-  BrowserRouter as Router,
   Route,
   Link,
 } from "react-router-dom";
@@ -14,7 +13,17 @@ import clientList from './components/client-list';
 import leadershipSkills from './components/leadership-skills';
 import ourPeople from './components/our-people';
 import employeeSurveys from './components/employee-surveys';
+
+import achiever from './components/leadership/achiever';
+import anticipator from './components/leadership/anticipator';
+import communicator from './components/leadership/communicator';
+import decider from './components/leadership/decider';
+import developer from './components/leadership/developer';
+import motivator from './components/leadership/motivator';
+import organiser from './components/leadership/organiser';
+
 import logo from './images/FCPLogoGrey.jpeg'
+
 function AppRouter() {
   return (
     <HashRouter>
@@ -59,6 +68,13 @@ function AppRouter() {
           <Route path="/leadership-skills/" component={leadershipSkills} />
           <Route path="/our-people/" component={ourPeople} />
           <Route path="/employee-surveys/" component={employeeSurveys} />
+          <Route path="/achiever" component={achiever} />
+          <Route path="/anticipator" component={anticipator} />
+          <Route path="/communicator" component={communicator} />
+          <Route path="/decider" component={decider} />
+          <Route path="/developer" component={developer} />
+          <Route path="/motivator" component={motivator} />
+          <Route path="/organiser" component={organiser} />
         </div>
         <footer style={{bottom:0, padding: 2}}>
           <hr />

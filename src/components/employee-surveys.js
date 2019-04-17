@@ -1,5 +1,4 @@
 import React from 'react';
-import table from '../images/table.png'
 
 const Index = () => (
   <div className="">

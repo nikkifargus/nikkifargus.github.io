@@ -1,5 +1,5 @@
 import React from 'react';
-import PrimaryButton from './primaryButton'
+import LeadershipLink from './leadershipLink'
 
 const Index = () => (
   <div className="">
@@ -19,26 +19,33 @@ const Index = () => (
           </button>
         </div>
         <div className="col-11" style={{ backgroundColor: 'blue' }}>
-          <PrimaryButton
+          <LeadershipLink
             title="motivator"
+            link="/motivator"
           />
-          <PrimaryButton
+          <LeadershipLink
             title="acheiver"
+            link="/achiever"
           />
-          <PrimaryButton
+          <LeadershipLink
             title="anticipator"
+            link="/anticipator"
           />
-          <PrimaryButton
+          <LeadershipLink
             title="organiser"
+            link="/organiser"
           />
-          <PrimaryButton
+          <LeadershipLink
             title="developer"
+            link="/developer"
           />
-          <PrimaryButton
+          <LeadershipLink
             title="problem solver/ decider"
+            link="/decider"
           />
-          <PrimaryButton
+          <LeadershipLink
             title="communicator"
+            link="/communicator"
           />
         </div>
         <div>

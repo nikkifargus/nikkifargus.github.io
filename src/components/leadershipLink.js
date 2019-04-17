@@ -1,18 +1,21 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
-const PrimaryButton = props => (
+const LeadershipLink = props => (
   <div style={{
     padding: '0.5rem',
   }}>
-    <button
+    <Link
+      to={props.link}
       style={{
         padding: '0.5rem',
         width: '600px',
+        backgroundColor:'purple',
       }}
     >
       {props.title.toUpperCase()}
-    </button>
+    </Link>
   </div>
 );
 
-export default PrimaryButton;
+export default LeadershipLink;
