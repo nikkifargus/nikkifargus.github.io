@@ -10,36 +10,18 @@ const Index = () => (
     }}>
       MOTIVATOR
     </h4>
-    <table class="table table-bordered table-responsive-sm">
-      <thead>
-        <tr>
-          <th scope="col">Core content</th>
-          <th scope="col">Linked modules</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Motivational climate questionnaire</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Creating a motivational climate</td>
-          <td>Your organisation's motivational climate - how to improve it (for senior managers)</td>
-        </tr>
-        <tr>
-          <td>Managers' motivation toolkit</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Motivating poor performers</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Choosing a leadership style</td>
-          <td>Improving self knowledge (includes emotional intelligence)</td>
-        </tr>
-      </tbody>
-    </table>
+    <div>
+      <ul>
+        <li>You will motivate your people to 'achieve'. Use all the personal roles.</li>
+        <li>Motivators are actions that encourage people to achieve.</li>
+        <li>Motivators include pride in belonging, understanding of role, establishing friendships; recognition and reward for good work and opportunities to learn.
+        </li>
+        <li>Satisfiers are actions which provide basic resources: they will not motivate, but a lack of them can de-motivate</li>
+        <li>Satisfiers include good basic pay, good organisation, good personal safely, enough tools to do the job, decent food etc.</li>
+        <li>If one of your people is under-achieving there is usually a good reason. Taketimetofindoutwhy.Theremaybeworkorpersonal problems.</li>
+        <li>Consult your manager if you need to discipline one of your people. There may be significant legal implications.</li>
+      </ul>
+    </div>
     <Link style={{ justifyContent: 'flex-end'}} to="/leadership-skills/">
     <h5 style={{
       color: `#565347`,

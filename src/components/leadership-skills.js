@@ -1,5 +1,6 @@
 import React from 'react';
 import LeadershipLink from './leadershipLink'
+import { Link } from "react-router-dom";
 
 const Index = () => (
   <div className="">
@@ -13,16 +14,19 @@ const Index = () => (
     </p>
     <div className="col-sm-12 col-lg-10 offset-lg-1 ">
       <div className="row">
+      <div className="col-12" style={{ backgroundColor: 'red' }}> Leading a Team </div>
+
         <div className="col-1" style={{ backgroundColor: 'red' }}>
-          <button>
-            test
-          </button>
+          <Link
+            to="/motivator"
+          >
+          <div>
+          motivator
+          </div>
+          </Link>
         </div>
-        <div className="col-11" style={{ backgroundColor: 'blue' }}>
-          <LeadershipLink
-            title="motivator"
-            link="/motivator"
-          />
+        <div className="col-11" style={{ backgroundColor: '' }}>
+
           <LeadershipLink
             title="acheiver"
             link="/achiever"

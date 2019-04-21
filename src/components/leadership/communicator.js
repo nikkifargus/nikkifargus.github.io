@@ -10,36 +10,18 @@ const Index = () => (
     }}>
     Communicator Options
     </h4>
-    <table class="table table-bordered table-responsive-sm">
-      <thead>
-        <tr>
-          <th scope="col">Core content</th>
-          <th scope="col">Linked modules</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>A communications model</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Communication styles</td>
-          <td>Improving personal assertiveness</td>
-        </tr>
-        <tr>
-          <td>Communicating in diversity</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Key communication skills</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>Situational communications</td>
-          <td>Managing meetings <br/> Report writing skills <br/> Presentation skills <br/> Influencing skills <br/> (See also Problem Solver linked modules)</td>
-        </tr>
-      </tbody>
-    </table>
+    <div>
+      <ul>
+        <li>Communications can be distorted anywhere along the stages: encode -transmit - receive - decode – feedback.</li>
+        <li>Distortion of meaning can occur through filters such as selective attention, categorisation, context and expectation.</li>
+        <li>Be aware of your natural inclination towards: Assertiveness - Receptiveness
+        Strong Relationships-Self Containment</li>
+        <li>You will mainly use two or three of these styles: Co-Ordinator; Completer; Diplomat; Evaluator; Ideas Generator; Implementer. Influencer; Networker.
+        </li>
+        <li>Communicate regularly with your people, Team briefs should be organised systematically and regularly. Also useone-to-ones.</li>
+        <li>Develop situation specific communications skills - interviewing; presenting; writing documents; negotiating, networking, managing (or participating in) meetings.</li>
+      </ul>
+    </div>
     <Link style={{ justifyContent: 'flex-end'}} to="/leadership-skills/">
     <h5 style={{
       color: `#565347`,
