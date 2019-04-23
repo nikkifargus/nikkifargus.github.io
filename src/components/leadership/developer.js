@@ -8,7 +8,7 @@ const Index = () => (
     <h4 style={{
       color: `#565347`,
     }}>
-      Mentor
+      Coach
     </h4>
     <div>
       <ul>
