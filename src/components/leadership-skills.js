@@ -20,9 +20,9 @@ const Index = () => (
           <Link
             to="/motivator"
           >
-          <div>
-          motivator
-          </div>
+          <p className="vericaltext">
+          MOTIVATOR
+          </p>
           </Link>
         </div>
         <div className="col-11" style={{ backgroundColor: '' }}>

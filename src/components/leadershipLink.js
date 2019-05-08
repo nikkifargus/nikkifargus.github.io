@@ -7,13 +7,15 @@ const LeadershipLink = props => (
   }}>
     <Link
       to={props.link}
-      style={{
-        padding: '0.5rem',
-        width: '600px',
-        backgroundColor:'purple',
-      }}
     >
+    <p style={{
+      padding: '0.5rem',
+      width: '600px',
+      backgroundColor:'purple',
+      color: 'white'
+    }}>
       {props.title.toUpperCase()}
+      </p>
     </Link>
   </div>
 );
