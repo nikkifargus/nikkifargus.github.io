@@ -1,1 +1,10 @@
-
+p {
+  font-size: 0.9rem !important;
+  color: #565347;
+};
+@media (min-width: 768px) {
+  p {font-size:1rem !important;}
+}
+@media (min-width: 1200px) {
+  p {font-size:1.3rem !important;}
+}
