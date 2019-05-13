@@ -21,6 +21,7 @@ import decider from './components/leadership/decider';
 import developer from './components/leadership/developer';
 import motivator from './components/leadership/motivator';
 import organiser from './components/leadership/organiser';
+import changingWorld from './components/leadership/changingWorld';
 
 import logo from './images/FCPLogoGrey.jpeg'
 
@@ -75,6 +76,7 @@ function AppRouter() {
           <Route path="/developer" component={developer} />
           <Route path="/motivator" component={motivator} />
           <Route path="/organiser" component={organiser} />
+          <Route path="/changingWorld" component={changingWorld} />
         </div>
         <footer style={{bottom:0, padding: 2}}>
           <hr />

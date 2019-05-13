@@ -14,47 +14,86 @@ const Index = () => (
     </p>
     <div className="col-sm-12 col-lg-10 offset-lg-1 ">
       <div className="row">
-      <div className="col-12" style={{ backgroundColor: 'red' }}> Leading a Team </div>
+      <div className="col-12">
+        <p style={{
+          padding: '0.5rem',
+          backgroundColor:'purple',
+          color: 'white',
+          textAlign: 'center'
+        }}>
+          LEADING A TEAM
+        </p>
+      </div>
 
-        <div className="col-1" style={{ backgroundColor: 'red' }}>
-          <Link
-            to="/motivator"
-          >
-          <p className="vericaltext">
-          MOTIVATOR
-          </p>
-          </Link>
+        <div className="col-2" style={{marginTop: '1rem', marginBottom: '1rem'}}>
+          <div style={{ backgroundColor: 'orange', height: '100%', alignItems: 'center' }}>
+            <Link
+              to="/changingWorld"
+            >
+            <p style={{ textAlign: 'center'}}>
+            Changing world
+            </p>
+            </Link>
+          </div>
         </div>
-        <div className="col-11" style={{ backgroundColor: '' }}>
+        <div className="col-6" style={{ backgroundColor: '' }}>
 
           <LeadershipLink
-            title="acheiver"
-            link="/achiever"
-          />
-          <LeadershipLink
-            title="anticipator"
+            title="Anticipator"
             link="/anticipator"
           />
           <LeadershipLink
-            title="organiser"
+            title="Organiser"
             link="/organiser"
           />
           <LeadershipLink
-            title="developer"
+            title="Developer"
             link="/developer"
           />
           <LeadershipLink
-            title="problem solver/ decider"
+            title="Problem solver/ decider"
             link="/decider"
           />
           <LeadershipLink
-            title="communicator"
+            title="Communicator"
             link="/communicator"
           />
         </div>
-        <div>
+        <div className="col-2" style={{marginTop: '1rem', marginBottom: '1rem'}}>
+          <div style={{ backgroundColor: 'orange', height: '100%', alignItems: 'center' }}>
+          <Link
+            to="/motivator"
+          >
+          <p style={{ textAlign: 'center'}}>
+            Motivator
+          </p>
+          </Link>
+        </div>
+        </div>
+        <div className="col-2" style={{marginTop: '1rem', marginBottom: '1rem'}}>
+          <div style={{ backgroundColor: 'orange', height: '100%', alignItems: 'center' }}>
+          <Link
+            to="/acheiver"
+          >
+          <p style={{ textAlign: 'center'}}>
+            Achiever
+          </p>
+          </Link>
+        </div>
+        </div>
+        <div className="col-12">
+          <p style={{
+            padding: '0.5rem',
+            backgroundColor:'purple',
+            color: 'white',
+            textAlign: 'center',
+            marginTop: '1rem',
+          }}>
+          PERSONAL JUDGMENT
+          </p>
+        </div>
       </div>
-      </div>
+
     </div>
   </div>
 );

@@ -3,18 +3,19 @@ import { Link } from "react-router-dom";
 
 const LeadershipLink = props => (
   <div style={{
-    padding: '0.5rem',
   }}>
     <Link
       to={props.link}
     >
-    <p style={{
-      padding: '0.5rem',
-      width: '600px',
-      backgroundColor:'purple',
-      color: 'white'
-    }}>
-      {props.title.toUpperCase()}
+    <p
+      style={{
+        textAlign: 'center',
+        margin: '1rem',
+        padding: '1rem',
+        border: '2px solid #565347'
+      }}
+    >
+      {props.title}
       </p>
     </Link>
   </div>
