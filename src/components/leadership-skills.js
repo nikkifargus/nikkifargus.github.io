@@ -12,31 +12,32 @@ const Index = () => (
     <p>
       It is clear from both experience and research that leader style and skill impacts significantly on employee motivation, which then influences organisation performance and market value. Consequently we have worked with our clients to create an 8 module program aimed at boosting management/leadership effectiveness.
     </p>
-    <div className="col-sm-12 col-lg-10 offset-lg-1 ">
+    <div className="col-sm-12 col-md-10 offset-lg-1 ">
       <div className="row">
       <div className="col-12">
         <p style={{
           padding: '0.5rem',
-          backgroundColor:'purple',
-          color: 'white',
-          textAlign: 'center'
+          backgroundColor:`#c7e0e8`,
+          textAlign: 'center',
+          border: '2px solid #565347',
         }}>
           LEADING A TEAM
         </p>
       </div>
 
-        <div className="col-2" style={{marginTop: '1rem', marginBottom: '1rem'}}>
-          <div style={{ backgroundColor: 'orange', height: '100%', alignItems: 'center' }}>
-            <Link
-              to="/changingWorld"
-            >
+        <div className="col-md-2 col-sm-12" style={{marginTop: '1rem', marginBottom: '1rem'}}>
+        <Link
+          to="/changingWorld"
+        >
+          <div className="verticalLink">
+          <div className="mobileHide"/>
             <p style={{ textAlign: 'center'}}>
             Changing world
             </p>
-            </Link>
           </div>
+          </Link>
         </div>
-        <div className="col-6" style={{ backgroundColor: '' }}>
+        <div className="col-md-6 col-sm-12" >
 
           <LeadershipLink
             title="Anticipator"
@@ -47,7 +48,7 @@ const Index = () => (
             link="/organiser"
           />
           <LeadershipLink
-            title="Developer"
+            title="Coach"
             link="/developer"
           />
           <LeadershipLink
@@ -59,35 +60,40 @@ const Index = () => (
             link="/communicator"
           />
         </div>
-        <div className="col-2" style={{marginTop: '1rem', marginBottom: '1rem'}}>
-          <div style={{ backgroundColor: 'orange', height: '100%', alignItems: 'center' }}>
-          <Link
-            to="/motivator"
-          >
+        <div className="col-md-2 col-sm-12" style={{marginTop: '1rem', marginBottom: '1rem'}}>
+        <Link
+          to="/motivator"
+        >
+
+          <div className="verticalLink">
+          <div className="mobileHide"/>
           <p style={{ textAlign: 'center'}}>
             Motivator
           </p>
-          </Link>
         </div>
+        </Link>
+
         </div>
-        <div className="col-2" style={{marginTop: '1rem', marginBottom: '1rem'}}>
-          <div style={{ backgroundColor: 'orange', height: '100%', alignItems: 'center' }}>
-          <Link
-            to="/acheiver"
-          >
+        <div className="col-md-2 col-sm-12" style={{marginTop: '1rem', marginBottom: '1rem', justifyContent: 'center'}}>
+        <Link
+          to="/achiever"
+        >
+          <div className="verticalLink">
+          <div className="mobileHide"/>
           <p style={{ textAlign: 'center'}}>
             Achiever
           </p>
-          </Link>
         </div>
+        </Link>
+
         </div>
         <div className="col-12">
           <p style={{
             padding: '0.5rem',
-            backgroundColor:'purple',
-            color: 'white',
+            backgroundColor:`#c7e0e8`,
             textAlign: 'center',
             marginTop: '1rem',
+            border: '2px solid #565347',
           }}>
           PERSONAL JUDGMENT
           </p>

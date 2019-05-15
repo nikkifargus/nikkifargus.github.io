@@ -10,7 +10,8 @@ const LeadershipLink = props => (
     <p
       style={{
         textAlign: 'center',
-        margin: '1rem',
+        marginTop: '1rem',
+        marginBottom: '1rem',
         padding: '1rem',
         border: '2px solid #565347'
       }}
