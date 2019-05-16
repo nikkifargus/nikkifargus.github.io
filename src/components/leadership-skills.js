@@ -15,17 +15,12 @@ const Index = () => (
     <div className="col-sm-12 col-md-10 offset-lg-1 ">
       <div className="row">
       <div className="col-12">
-        <p style={{
-          padding: '0.5rem',
-          backgroundColor:`#c7e0e8`,
-          textAlign: 'center',
-          border: '2px solid #565347',
-        }}>
+        <p className="header">
           LEADING A TEAM
         </p>
       </div>
 
-        <div className="col-md-2 col-sm-12" style={{marginTop: '1rem', marginBottom: '1rem'}}>
+        <div className="col-md-2 col-sm-12 margin">
         <Link
           to="/changingWorld"
         >
@@ -60,7 +55,7 @@ const Index = () => (
             link="/communicator"
           />
         </div>
-        <div className="col-md-2 col-sm-12" style={{marginTop: '1rem', marginBottom: '1rem'}}>
+        <div className="col-md-2 col-sm-12 margin">
         <Link
           to="/motivator"
         >
@@ -74,7 +69,7 @@ const Index = () => (
         </Link>
 
         </div>
-        <div className="col-md-2 col-sm-12" style={{marginTop: '1rem', marginBottom: '1rem', justifyContent: 'center'}}>
+        <div className="col-md-2 col-sm-12 margin" >
         <Link
           to="/achiever"
         >
@@ -88,13 +83,7 @@ const Index = () => (
 
         </div>
         <div className="col-12">
-          <p style={{
-            padding: '0.5rem',
-            backgroundColor:`#c7e0e8`,
-            textAlign: 'center',
-            marginTop: '1rem',
-            border: '2px solid #565347',
-          }}>
+          <p className="header">
           PERSONAL JUDGMENT
           </p>
         </div>

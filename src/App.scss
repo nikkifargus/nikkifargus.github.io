@@ -20,12 +20,48 @@ p {
   background-color: #F5F5F5;
   align-items: center;
   padding: 1rem;
-  border: 2px solid #565347;
+  border: 1px solid #565347;
   p {
     margin: 0;
+    font-weight: bold;
   }
   @media (min-width: 768px) {
   height: 100%;
   padding: 0;
+  border: 2px solid #565347;
   }
+}
+.leadershipLink {
+  text-align: center;
+  padding: 1rem;
+  border: 1px solid #565347;
+  p {
+    margin-bottom: 0;
+  }
+  @media (min-width: 768px) {
+  border: 2px solid #565347;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  }
+}
+.header {
+  padding: 0.5rem;
+  background-color: #c7e0e8;
+  text-align: center;
+  border: 1px solid #565347;
+  p {
+    margin: 0;
+  }
+  @media (min-width: 768px) {
+  padding: 0;
+  border: 2px solid #565347;
+  margin-top: 1rem;
+  }
+}
+.margin {
+  margin-bottom: 1rem;
+  @media (min-width: 768px) {
+    margin-top: 1rem;
+  }
+
 }
