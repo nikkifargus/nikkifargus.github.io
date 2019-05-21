@@ -4,7 +4,7 @@ import image from '../../images/LAT/changing_world.jpg'
 
 const Index = () => (
   <Layout
-    title="Changing World"
+    title="CHANGING WORLD"
     image={image}
     list={[
       'The world is changing, and we need to constantly review the challenges we face',

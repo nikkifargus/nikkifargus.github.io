@@ -11,6 +11,7 @@ const Index = () => (
         <img alt="logo" style={{width: '60%'}} src={logo}/>
       </div>
       <div className="col-lg-5 col-sm-12" style={{ margin: 'auto 0'}}>
+        <p> We help clients assess the quality of Human Capital: </p>
         <p> - During strategic planning </p>
         <p> - Before transformation </p>
         <p> - Before mergers and acquisitions </p>

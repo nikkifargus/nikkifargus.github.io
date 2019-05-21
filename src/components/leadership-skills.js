@@ -7,16 +7,16 @@ const Index = () => (
     <h4 style={{
       color: `#565347`,
     }}>
-      We develop management and leadership skills
+      We develop leadership and management skills
     </h4>
     <p>
-      It is clear from both experience and research that leader style and skill impacts significantly on employee motivation, which then influences organisation performance and market value. Consequently we have worked with our clients to create an 8 module program aimed at boosting management/leadership effectiveness.
+      It is clear from both experience and research that leadership and management skills impact significantly on employee motivation, which then influences organisation performance and market value. Consequently we have worked with our clients to create an 8 module program called `Leading a Team`. The modules aim to boost management/leadership effectiveness.
     </p>
     <div className="col-sm-12 col-md-10 offset-lg-1 ">
       <div className="row">
       <div className="col-12">
         <p className="header">
-          LEADING A TEAM
+          LEADING A TEAM - for indicative content click on each heading
         </p>
       </div>
 
@@ -35,10 +35,6 @@ const Index = () => (
         <div className="col-md-6 col-sm-12" >
 
           <LeadershipLink
-            title="Anticipator"
-            link="/anticipator"
-          />
-          <LeadershipLink
             title="Organiser"
             link="/organiser"
           />
@@ -53,6 +49,10 @@ const Index = () => (
           <LeadershipLink
             title="Communicator"
             link="/communicator"
+          />
+          <LeadershipLink
+            title="Anticipator"
+            link="/anticipator"
           />
         </div>
         <div className="col-md-2 col-sm-12 margin">
@@ -84,7 +84,7 @@ const Index = () => (
         </div>
         <div className="col-12">
           <p className="header">
-          PERSONAL JUDGMENT
+          PERSONAL JUDGMENT - required at all times
           </p>
         </div>
       </div>

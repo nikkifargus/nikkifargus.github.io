@@ -10,7 +10,9 @@ const Index = () => (
     </div>
     <div style={{color: '#565347', textAlign: 'center'}}>
       <div> Managing Motivation in Business </div>
-      <div> The Fargus Consulting Partnership (FCP) is a family business. We specialise in measuring and improving motivation in business. Our approach is detailed in our Executive Briefing entitled Measuring and Improving Employee Motivation available <a href="https://books.google.co.uk/books/about/Measuring_and_Improving_Employee_Motivat.html?id=-0VYAAAAYAAJ&redir_esc=y">here</a>. </div>
+      <div> The Fargus Consulting Partnership (FCP) is a family business. We specialise in measuring and improving motivation in business.
+      <br />Our approach is detailed in our Executive Briefing entitled Measuring and Improving Employee Motivation.
+      <br /> For more information click <a href="https://books.google.co.uk/books/about/Measuring_and_Improving_Employee_Motivat.html?id=-0VYAAAAYAAJ&redir_esc=y">here</a>. Copy available on request. </div>
     </div>
     </div>
 );
