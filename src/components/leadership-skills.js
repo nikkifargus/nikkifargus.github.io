@@ -16,7 +16,7 @@ const Index = () => (
       <div className="row">
       <div className="col-12">
         <p className="header">
-          LEADING A TEAM - for indicative content click on each heading
+          LEADING A TEAM - for typical content click on each heading
         </p>
       </div>
 
