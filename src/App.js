@@ -29,31 +29,31 @@ function AppRouter() {
   return (
     <HashRouter>
       <div>
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <Link class="navbar-brand" to="/"><img alt=""src={logo} style={{ maxWidth: 100}}/></Link>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+        <Link className="navbar-brand" to="/"><img alt=""src={logo} style={{ maxWidth: 100}}/></Link>
+        <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span className="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav">
-          <li class="nav-item">
-            <Link class="nav-link" to="/">Home</Link>
+        <div className="collapse navbar-collapse" id="navbarNav">
+          <ul className="navbar-nav">
+          <li className="nav-item">
+            <Link className="nav-link" to="/">Home</Link>
           </li>
-          <li class="nav-item">
-            <Link class="nav-link" to="/about-us/">About Us</Link>
+          <li className="nav-item">
+            <Link className="nav-link" to="/about-us/">About Us</Link>
           </li>
-          <li class="nav-item dropdown">
-            <a class="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
+          <li className="nav-item dropdown">
+            <a className="nav-link dropdown-toggle"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" href="#">
               What We Do
             </a>
-            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-              <Link class="dropdown-item" to="/leadership-skills/">Leadership Skills</Link>
-              <Link class="dropdown-item" to="/employee-surveys/">Employee Surveys</Link>
-              <Link class="dropdown-item" to="/our-people/">Assess the Quality of Human Capital</Link>
+            <div className="dropdown-menu" aria-labelledby="navbarDropdown">
+              <Link className="dropdown-item" to="/leadership-skills/">Leadership Skills</Link>
+              <Link className="dropdown-item" to="/employee-surveys/">Employee Surveys</Link>
+              <Link className="dropdown-item" to="/our-people/">Assess the Quality of Human Capital</Link>
             </div>
           </li>
-            <li class="nav-item">
-              <Link class="nav-link" to="/client-list/">Client List <span class="sr-only">(current)</span></Link>
+            <li className="nav-item">
+              <Link className="nav-link" to="/client-list/">Client List <span className="sr-only">(current)</span></Link>
             </li>
           </ul>
         </div>
