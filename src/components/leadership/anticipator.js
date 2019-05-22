@@ -7,7 +7,7 @@ const Index = () => (
     title="ANTICIPATOR"
     image={image}
     list={[
-      'Added value activities help meet customer requirements',
+      'Added value activities help meet customer requirements.',
       'Prevention activities include planning; training; establishing procedures; risk analysisetc. These anticipate and reduce failure activities.',
       'Inspection activities include audits; electronic monitoring etc.',
       'Failure activities include accidents, reworking, downtime etc.',
