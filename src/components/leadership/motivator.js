@@ -7,7 +7,7 @@ const Index = () => (
     title="MOTIVATOR"
     image={image}
     list={[
-      'You will motivate your people to `achieve`. Use all the personal roles.',
+      'All the personal roles impact on motivation.',
       'Motivators are actions that encourage people to achieve.',
       'Motivators include pride in belonging, understanding of role, establishing friendships; recognition and reward for good work and opportunities to learn.',
       'Satisfiers are actions which provide basic resources: they will not motivate, but a lack of them can de-motivate',

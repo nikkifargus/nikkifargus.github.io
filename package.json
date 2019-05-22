@@ -11,7 +11,7 @@
     "react-router-dom": "^4.3.1",
     "react-scripts": "2.1.5"
   },
-  "homepage": "https://nikkifargus.github.io",
+  "homepage": "https://fargus.co.uk",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
