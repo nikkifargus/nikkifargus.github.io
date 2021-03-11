@@ -1,63 +1,25 @@
 import React from 'react';
+import logo from '../images/OPR.png'
 
 const Index = () => (
   <div className="">
-    <h4 style={{
-      color: `#565347`,
-    }}>
-      Employee opinion surveys and 360 degree feedback
-    </h4>
-    <p style={{
-      color: `#565347`,
-    }}> We can offer a full organisation survey, or one restricted to specific parts of your organisation. </p>
-    <table class="table table-bordered table-responsive-sm">
-      <thead>
-        <tr>
-          <th scope="col">Action</th>
-          <th scope="col">Opinion Surveys</th>
-          <th scope="col"></th>
-          <th scope="col">360 Degree Feedback</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Design of the measuring instrument</td>
-          <td>Yes</td>
-          <td>Off the shelf or tailored</td>
-          <td>Yes</td>
-        </tr>
-        <tr>
-          <td>Data capture manually or electronically</td>
-          <td>Yes</td>
-          <td></td>
-          <td>Yes</td>
-        </tr>
-        <tr>
-          <td>Data interpretation: trends/themes/comparisons</td>
-          <td>Yes</td>
-          <td></td>
-          <td>Yes</td>
-        </tr>
-        <tr>
-          <td>Discussion of results</td>
-          <td>Yes</td>
-          <td></td>
-          <td>Yes</td>
-        </tr>
-        <tr>
-          <td>Communication of results</td>
-          <td>Yes</td>
-          <td></td>
-          <td>Confidential</td>
-        </tr>
-        <tr>
-          <td>Facilitating improvement action</td>
-          <td>Yes</td>
-          <td></td>
-          <td>Coaching</td>
-        </tr>
-      </tbody>
-    </table>
+    <div className="row">
+      <div
+        className="col-lg-4 offset-lg-2 col-sm-12"
+        style={{textAlign: 'center'}}
+      >
+        <img alt="logo" style={{width: '60%'}} src={logo}/>
+        <p className="text-orange"> SCALEUP-GUIDE ENHANCING YOUR LEADERSHIP </p>
+
+      </div>
+      <div className="col-lg-5 col-sm-12" style={{ margin: 'auto 0'}}>
+        <p> Our approach to enabling you to improve your scaleup leadership involves: </p>
+        <p> - Your judgement on the importance, in your organisation, of 12 leadership activities. </p>
+        <p> -  Your judgement on how well you are carrying out those activities. </p>
+        <p> - And provides you with: A report indicating your priorities for improved leadership. </p>
+        <p> - Vist <a href="https://www.scaleup-leader.guide/" >Scaleup-Leader.Guide</a> for more information</p>
+      </div>
+    </div>
   </div>
 );
 

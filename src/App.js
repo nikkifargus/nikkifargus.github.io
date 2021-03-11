@@ -48,7 +48,7 @@ function AppRouter() {
             </a>
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <Link class="dropdown-item" to="/leadership-skills/">Leadership Skills</Link>
-              <Link class="dropdown-item" to="/employee-surveys/">Employee Surveys</Link>
+              <Link class="dropdown-item" to="/employee-surveys/">Scaleup Leader Guide</Link>
               <Link class="dropdown-item" to="/our-people/">Assess the Quality of Human Capital</Link>
             </div>
           </li>

@@ -27,7 +27,7 @@ const Index = () => (
           <div className="verticalLink">
           <div className="mobileHide"/>
             <p style={{ textAlign: 'center'}}>
-            Changing world
+              Anticipating change – Scouting
             </p>
           </div>
           </Link>
@@ -35,23 +35,23 @@ const Index = () => (
         <div className="col-md-6 col-sm-12" >
 
           <LeadershipLink
-            title="Organiser"
+            title="Organising"
             link="/organiser"
           />
           <LeadershipLink
-            title="Coach"
+            title="Learning"
             link="/developer"
           />
           <LeadershipLink
-            title="Problem solver/ decider"
+            title="Problem solving"
             link="/decider"
           />
           <LeadershipLink
-            title="Communicator"
+            title="Communicating"
             link="/communicator"
           />
           <LeadershipLink
-            title="Anticipator"
+            title="Anticipating"
             link="/anticipator"
           />
         </div>
@@ -63,7 +63,7 @@ const Index = () => (
           <div className="verticalLink">
           <div className="mobileHide"/>
           <p style={{ textAlign: 'center'}}>
-            Motivator
+            Motivating
           </p>
         </div>
         </Link>
@@ -76,7 +76,7 @@ const Index = () => (
           <div className="verticalLink">
           <div className="mobileHide"/>
           <p style={{ textAlign: 'center'}}>
-            Achiever
+            Achieving
           </p>
         </div>
         </Link>

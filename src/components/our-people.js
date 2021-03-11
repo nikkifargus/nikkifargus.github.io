@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../images/OPR_Logo.png'
+import logo from '../images/OPR.png'
 
 const Index = () => (
   <div className="">
@@ -9,8 +9,11 @@ const Index = () => (
         style={{textAlign: 'center'}}
       >
         <img alt="logo" style={{width: '60%'}} src={logo}/>
+        <p className="text-orange"> HUMAN CAPITAL REPORT </p>
+
       </div>
       <div className="col-lg-5 col-sm-12" style={{ margin: 'auto 0'}}>
+        <p> Reviews of workforce quality before scale-up, transformation, merger or aquisition. Annual reviews of workforce strategy </p>
         <p> We help clients assess the quality of Human Capital: </p>
         <p> - During strategic planning </p>
         <p> - Before transformation </p>
