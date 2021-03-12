@@ -19,7 +19,7 @@ const Index = () => (
         <p> - During strategic planning </p>
         <p> - Before transformation </p>
         <p> - Before mergers and acquisitions </p>
-        <p> - Visit <a href="http://www.ourpeoplereview.com">ourpeoplereview.com</a> for more information</p>
+        <p> - Visit <a href="http://www.HumanCapital.Report">www.HumanCapital.Report</a> for more information</p>
       </div>
     </div>
   </div>
