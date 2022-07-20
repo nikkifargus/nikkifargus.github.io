@@ -119,6 +119,7 @@ input, select, textarea {
 		font-size: 18pt;
 	}
 
+
 		@media screen and (max-width: 1680px) {
 
 			html {
@@ -162,6 +163,105 @@ input, select, textarea {
 		font-weight: 300;
 		line-height: 1.65;
 	}
+
+  /* ---navbar ---- */
+  .nav-wrapper {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+  }
+  .navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+  }
+  .navbar-links ul {
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color:#565759;
+    height: 100vh;
+  }
+  .navbar-links li {
+    list-style: none;
+    text-align: center;
+  }
+  .navbar-links li a {
+    text-decoration: none;
+    padding: 1rem;
+    display: block;
+    color: #f2f2f2;
+  }
+  .navbar-links li a:hover {
+    color: #565759;
+  }
+  .navbar-links li:hover {
+    background-color: #f2f2f2;
+  }
+  .toggle-button {
+    position: absolute;
+    top: 2rem;
+    right: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 31px;
+    height: 21px;
+    z-index: 1;
+  }
+  .toggle-button:hover {
+    cursor: pointer;
+  }
+  .toggle-button .bar{
+    height: 2px;
+    width: 100%;
+    border-radius: 10px;
+  }
+  .toggle-button .bar1{
+    background-color: black;
+  }
+  .toggle-button .bar2{
+    background-color: brown;
+  }
+  .toggle-button .bar3{
+    background-color: red;
+  }
+  .toggle-button .bar4{
+    background-color: orange;
+  }
+  .toggle-button .bar5{
+    background-color: yellow;
+  }
+  .toggle-button .bar6{
+    background-color: green;
+  }
+  .toggle-button .bar7{
+    background-color: blue;
+  }
+  .toggle-button .bar8{
+    background-color: purple;
+  }
+
+    .toggle-button {
+      display: flex;
+      z-index: 1;
+    }
+    .navbar-links {
+      display: none;
+      width: 100%;
+    }
+    .navbar {
+      align-items: flex-start;
+      flex-direction: column;
+    }
+
+    .navbar-links.active {
+      display: flex;
+  }
 
 	a {
 		-moz-transition: color 0.2s ease-in-out;
